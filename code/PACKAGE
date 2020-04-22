@@ -1,0 +1,20 @@
+package: MyPlugin
+author: qmasingarbe
+contact: qmasingarbe@gmail.com
+version: 1.0
+requires: ''
+rv: 4.0.8
+optional: true
+
+modes:
+  - file: my_code.py
+    menu: ''
+    shortcut: ''
+    event: ''
+    load: immediate
+
+description: |
+
+    <h2>Plugin boiler plate</h2>
+    <p>
+    This will appear in RV UI in the packages list
