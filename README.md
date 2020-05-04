@@ -14,7 +14,8 @@ _This is the result of the start code, a Qt widget populated by paths when new s
   After restarting RV you should see the new menu
   - to edit our plugin, we can write in the python file in the installation directory under the Python folder    
   This avoid creating a new package and reinstalling it using the UI.
-  You have to restart RV to see any change to the .py file, I didn't find a way to reload the plugin.
+  You have to restart RV to see any change to the .py file, I didn't find a way to reload the plugin inside RV.    
+  A simple reloadPlugin.sh script is provided in this repo to quicly reload RV with updated py for testing purposes.
 
 ### Code
 The code folder contains 2 files :
