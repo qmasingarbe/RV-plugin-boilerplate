@@ -6,7 +6,7 @@ _This is the result of the start code, a Qt widget populated by paths when new s
 
 ### Setup
   - copy the content of the `code` directory of this repo to somewhere in your source code repository   
-  - create a **rvpkg** using this command `zip my_package-0.0.rvpkg PACKAGE my_code.py`
+  - create a **rvpkg** using this command `zip my_package-0.0.rvpkg PACKAGE my_code.py` (or a tool like 7zip/winRar)
   The .rvpkg file is the proper way to install a plugin in RV, it should contain everything needed for the plugin.
   - install the rvpkg by starting RV, going in RV > Preferences... > Packages > Add packages...    
   RV will show you were the package is going to be installed, keep note of this path
