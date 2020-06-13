@@ -1,4 +1,4 @@
-# rv python libs (located here on my systeme => /usr/local/rv-7.3.1/plugins/Python/rv)
+# rv python libs (located here on my system => /usr/local/rv-7.3.1/plugins/Python/rv)
 from rv import rvtypes as rvt
 from rv import commands as rvc
 from rv import extra_commands as rve
